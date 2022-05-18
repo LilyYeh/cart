@@ -7,8 +7,8 @@ networks:
 services:
 
   ### reverse-proxy #########################################
-  payflow:
-    container_name: payflow
+  cart:
+    container_name: cart
     networks:
       - frontend
       - backend
@@ -17,7 +17,7 @@ services:
       - "80:80"
     volumes:
       - ./nginx/conf:/etc/nginx/conf.d
-      - ../:/usr/share/nginx/html/payflow
+      - ../:/usr/share/nginx/html/cart
 
   ### PHP-FPM ##############################################
   php-fpm:
@@ -29,7 +29,7 @@ services:
     expose:
       - 9000
     volumes:
-      - ../:/usr/share/nginx/html/payflow
+      - ../:/usr/share/nginx/html/cart
 
   ### database ##############################################
   database:
