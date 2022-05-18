@@ -28,18 +28,3 @@ Route::delete('/delete/cart', 'Cart@delete');
 
 //商品列表
 Route::get('/get/products', 'Products@get');
-
-//user
-Route::get('/user', function () {
-    return view('user');
-});
-
-//金流
-Route::get('/pay', function () {
-    return view('pay');
-});
-Route::get('/test', function () {
-    return view('test');
-});
-
-Route::get('/createOrder', 'PayFlow@createOrder');
