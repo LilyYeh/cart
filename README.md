@@ -8,7 +8,10 @@
 > composer install;
 ```
 
-##### 步驟2. start docker
+##### 步驟2. 新增 .env 檔
+> cp .env.example .env
+
+##### 步驟3. start docker
 ```
 > cd docker;
 > docker-compose up -d;
