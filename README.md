@@ -1,9 +1,9 @@
 # 用 laravel7.0 + vuejs2 做一個小購物車
 
 #### 環境建置
-##### 步驟1. 安裝 node14.15.3
+##### 步驟1. 安裝 node 和 composer
 ```
-> cd payflow;
+> cd cart;
 > npm install;
 > composer install;
 ```
