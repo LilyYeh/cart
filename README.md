@@ -9,7 +9,9 @@
 ```
 
 ##### 步驟2. 新增 .env 檔
+```
 > cp .env.example .env
+```
 
 ##### 步驟3. start docker
 ```
