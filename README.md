@@ -1,22 +1,16 @@
 # 用 laravel7.0 + vuejs2 做一個小購物車
 
 #### 環境建置
-##### 步驟1. 安裝 node 和 composer
-```
-> cd cart;
-> npm install;
-> composer install;
-```
-
-##### 步驟2. 新增 .env 檔
-```
-> cp .env.example .env
-```
-
-##### 步驟3. start docker
+##### 步驟1. start docker
 ```
 > cd docker;
 > docker-compose up -d;
+```
+
+##### 步驟2. 新增 .env 檔 && composer install
+
+```
+> ./exe.sh
 ```
 
 ##### 步驟3. 瀏覽
