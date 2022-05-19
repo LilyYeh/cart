@@ -29,6 +29,7 @@ services:
       - 9000
     volumes:
       - ../:/usr/share/nginx/html/cart
+    working_dir: /usr/share/nginx/html/cart
 
   ### database ##############################################
   database:
