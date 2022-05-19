@@ -1990,7 +1990,7 @@ __webpack_require__.r(__webpack_exports__);
   //props: ['cart'],
   data: function data() {
     return {
-      domain: '',
+      domain: '/',
       products: [{
         id: 1,
         name: 'iphone SE',
@@ -33046,7 +33046,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/project/payflow/resources/js/cart.js */"./resources/js/cart.js");
+module.exports = __webpack_require__(/*! /Users/core/Documents/project/cart/resources/js/cart.js */"./resources/js/cart.js");
 
 
 /***/ })
