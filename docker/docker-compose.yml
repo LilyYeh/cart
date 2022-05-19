@@ -24,7 +24,6 @@ services:
     container_name: php
     networks:
       - backend
-    #image: php:7.3.6-fpm
     build: ./php
     expose:
       - 9000
