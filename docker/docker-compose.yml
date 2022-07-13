@@ -6,7 +6,7 @@ networks:
 
 services:
 
-  ### reverse-proxy #########################################
+  ### web server #########################################
   cart:
     container_name: cart
     networks:
