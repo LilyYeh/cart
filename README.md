@@ -8,9 +8,12 @@
 ```
 
 ##### 步驟2. 新增 .env 檔 + composer install + npm install
-
+路徑：/cart
+本機 php version：php@7.4
 ```
-> ./exe.sh
+> cp .env.example .env
+> composer install
+> npm install
 ```
 
 ##### 步驟3. 瀏覽
