@@ -8,7 +8,7 @@
 ```
 
 ##### 步驟2. 新增 .env 檔 + composer install + npm install
-路徑：/cart
+路徑：/cart<br>
 本機 php version：php@7.4
 ```
 > cp .env.example .env
